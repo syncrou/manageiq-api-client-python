@@ -23,6 +23,7 @@ setup(
         'simplejson',
         'six',
     ],
+    dependency_links=["https://github.com/syncrou/manageiq-api-client-python"],
     setup_requires=[
         'setuptools_scm',
     ],
